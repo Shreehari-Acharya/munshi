@@ -3,6 +3,7 @@ import "dotenv/config";
 import { prisma } from "./exports/prisma";
 import type { get } from "node:http";
 
+
 const commands = {
   "get-products": getProducts,
   "get-stock": getStock,
