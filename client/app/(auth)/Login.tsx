@@ -43,7 +43,7 @@ const Login = () => {
           onSuccess: () => {
             router.replace('/(root)/(tabs)/Dashboard');
           },
-          onError: (ctx) => {
+          onError: (ctx:any) => {
             setError(ctx.error.message || 'Login failed');
           },
         }
