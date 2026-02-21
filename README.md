@@ -5,7 +5,10 @@
 </p>
 
 <div align="center">
-  <video src="assets/demo.mp4" width="300" autoplay playsinline />
+  <video width="300" controls playsinline poster="assets/logo-munshi.jpeg">
+    <source src="assets/demo.mp4" type="video/mp4" />
+    Your browser does not support the video tag. Download it here: <a href="assets/demo.mp4">demo.mp4</a>
+  </video>
 </div>
 
 <p align="center">
